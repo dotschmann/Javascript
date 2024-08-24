@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Nunito Sans, sans-serif;
+    background-color: #252525;
+
+}
+
+.bfore_nav ul {
+   list-style-type: none;
+   background-color: #ebe4e4;
+   overflow: hidden;
+   padding: 0;
+   margin: 0;
+   
+}
+
+.listDec li {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+.listDec li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 650;
+}
+
+.listDec li a:hover {
+   text-decoration: underline;
+}
+
+.listDec li:not(:first-child) {
+    float: right;
+}
+
+#bfore_nav_btn a {
+  /* background-color: #333; */
+  padding: 0.4em 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#bfore_nav_btn a:hover {
+    text-decoration: none;
+    color: #73CC33;
+    border-color: #73CC33;
+
+}
+
+div.nav {
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo img {
+    width: 18em;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+}
+
+.link_pages {
+    float: left;
+    width: 75%;
+    text-align: right;
+    margin-top: 20px;
+}
+.link_pages a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color: #000000;
+    font-weight: 650;
+    font-size: 1.5em;
+}
+
+.large_img img {
+    max-width: 100%;
+    height: 5%;
+}
+
+
+#large_img {
+    background-image: url(img/csm_Jubilaeums-Festakt_Bild_5_9e0c862f29.webp);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+    padding: 270px;
+   
+}
+
+#large_img p {
+    margin-top: 3px;
+}
+.text_1 {
+    color: #ffffff;
+    letter-spacing: 0.04em;
+    font-size: 2.1em;
+    font-weight: bolder;
+    padding: 0px 10px 0 15px;
+    background-color: #252525;
+}
+
+.container_text {
+    position: relative;
+    right: 230px;
+    top: 220px;
+}
+
+.startSeite {
+    background-color: #0F172A;
+    padding: 15px;
+}
+
+.startSeite p {
+    color: #f1f1f1;
+}
+
+
+.studies_mensa {
+    margin: 50px 0 50px 20px;
+}
+
+.studies_mensa img {
+    width: 683px;
+    height: 683px;
+}
+
+.studies p {
+    color: #ffffff;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.headings {
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1.1em;
+}
+
+.headings span {
+    font-weight: lighter;
+}
+
+.img_mensa_study {
+    float: left;
+    width: 50%;
+}
+
+.intro {
+    float: left;
+    width: 50%;
+}
