@@ -31,14 +31,16 @@ body {
 }
 
 .listDec li a:hover {
-   text-decoration: underline;
+   color: #73CC33;
+   border-color: #73CC33;
+
 }
 
 .listDec li:not(:first-child) {
     float: right;
 }
 
-#bfore_nav_btn a {
+.bfore_nav_btn a {
   /* background-color: #333; */
   padding: 0.4em 1em;
   border-width: 1px;
@@ -132,7 +134,7 @@ div.nav {
 
 
 .studies_mensa {
-    margin: 50px 0 50px 20px;
+    /* margin: 50px 0 50px 20px; */
 }
 
 .studies_mensa img {
@@ -142,16 +144,14 @@ div.nav {
 
 .studies p {
     color: #ffffff;
-    padding-left: 20px;
-    margin-top: 40px;
 }
 
 .headings {
     color: #ffffff;
-   
     font-size: 30px;
     text-transform: uppercase;
     line-height: 1.1em;
+    margin-bottom: 40px;
 }
 
 .headings span {
@@ -160,17 +160,147 @@ div.nav {
 
 .img_mensa_study {
     float: left;
-    width: 50%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-top: 50px;
+    padding-left: 60px;
 }
 
 .intro {
     float: left;
-    width: 50%;
-    padding-left: 15px;
+    width: 60%;
+    margin-top: 50px;
+    padding-right: 200px;
+    padding-left: 60px;
+    /* background-color: #73CC33; */
+}
+
+.intro p {
+    margin-bottom: 23px;
+    font-size: 19px;
+    line-height: 1.6em;
 }
 
 .studies::after {
     clear: both;
     content: "";
     display: table;
+}
+
+
+
+#last_p {
+    padding-bottom: 24px;
+}
+
+
+div.bfore_nav_btn a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+
+div.bfore_nav_btn a:hover {
+    color: #73CC33;
+    border-color: #73CC33;
+    border-width: 2px;
+}
+
+.xterics {
+    background-color: #73CC33;
+    margin-left: 300px;
+    margin-top: 110px;
+    
+}
+
+.xterics_img {
+    float: left;
+    margin-left: 65px;
+    margin-right: 85px;
+    /* background-color: #73CC33;  */
+    width: 189px;
+    font-size: 23px;
+}
+
+div.xterics_img img {
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #73CC33; */
+
+    
+
+}
+
+.desc {
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+.xterics_img::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.bewerbung h3 {
+    text-transform: uppercase;
+}
+
+
+
+.bewerbung1, .bewerbung2 {
+    float: left;
+    width: 50%;
+    color: #ffffff;
+    margin-top: 110px;
+}
+.bewerbung1 {
+    padding-left: 194px;
+}
+
+.bewerbung2 {
+    background-color: #0F172A;
+    width: 758px;
+    height: 506px;
+}
+
+.clor_change  {
+    padding: 70px 30px;
+  
+}
+
+.clor_change h3 {
+    font-size: 1.43em;
+    letter-spacing: 0.1em;
+    color: #D1D5DB;
+    margin-bottom: 20px;
+}
+
+.clor_change p {
+    font-size: 17.5px;
+    line-height: 1.6em;
+}
+
+.btn_bewerb {
+    margin-top: 50px;
+}
+
+.bewerbung::after {
+    content: "";
+    display: table;
+    clear: both;
 }
