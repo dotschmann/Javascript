@@ -119,7 +119,7 @@ div.nav {
 
 .container_text {
     position: relative;
-    right: 230px;
+    right: 180px;
     top: 220px;
 }
 
@@ -135,11 +135,13 @@ div.nav {
 
 .studies_mensa {
     /* margin: 50px 0 50px 20px; */
+    
 }
 
 .studies_mensa img {
     width: 683px;
     height: 683px;
+   
 }
 
 .studies p {
@@ -150,12 +152,12 @@ div.nav {
     color: #ffffff;
     font-size: 30px;
     text-transform: uppercase;
-    line-height: 1.1em;
+    line-height: 1.2em;
     margin-bottom: 40px;
 }
 
 .headings span {
-    font-weight: lighter;
+    font-weight: 50;
 }
 
 .img_mensa_study {
@@ -163,7 +165,7 @@ div.nav {
     width: 40%;
     /* background-color: aqua; */
     margin-top: 50px;
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 .intro {
@@ -264,23 +266,25 @@ div.xterics_img img {
 
 .bewerbung1, .bewerbung2 {
     float: left;
-    width: 50%;
+
     color: #ffffff;
     margin-top: 110px;
 }
 .bewerbung1 {
-    padding-left: 194px;
+    padding-left: 100px;
+    /* background-color: #73CC33; */
+    width: 40%;
 }
 
 .bewerbung2 {
-    background-color: #0F172A;
     width: 758px;
     height: 506px;
+    width: 50%;
 }
 
 .clor_change  {
     padding: 70px 30px;
-  
+    background-color: #0F172A;
 }
 
 .clor_change h3 {
@@ -303,4 +307,43 @@ div.xterics_img img {
     content: "";
     display: table;
     clear: both;
+}
+
+.card_display {
+    margin-top: 50px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.cards {
+    float: left;
+    width: 25%;
+    
+}
+
+.crd_img {
+    height: 326.25px;
+    width: 326.25 px;
+    margin: 0px 40px 40px 0px;
+    
+}
+
+.crd_img1 {
+    background-image: url("img/csm_HS-Fulda-Drohne-Campus-29_59eaf3ae1c.webp");
+    background-repeat: no-repeat;
+}
+
+.crd_img2 {
+    background-image: url("img/csm_HS-Fulda-Drohne-Campus-40_53fdd74430.webp");
+    background-repeat: no-repeat;
+}
+
+.crd_img3 {
+    background-image: url("img/hs-fulda-steffen-boettcher--30.webp");
+    background-repeat: no-repeat;
+}
+
+.crd_img4 {
+    background-image: url("img/csm_HS-Sommer-HK-333_0aef43d5b9.webp");
+    background-repeat: no-repeat;
 }
